@@ -51,3 +51,4 @@ remove_bg.py
 *.desktop
 *.png
 !web/icons/*.png
+!screenshots/*.png
