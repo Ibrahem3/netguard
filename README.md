@@ -1,5 +1,10 @@
 # 🛡️ NetGuard - LAN Network Monitor & Controller
 
+## 📖 The Story (Why NetGuard?)
+
+When I completely migrated my primary workflow to Linux (Manjaro), I faced a huge daily annoyance: the absolute lack of a modern, working alternative to Windows' famous **SelfishNet** or NetCut to monitor and control my local network speed and cut off abusive devices. 
+
+Most Linux solutions were either unmaintained CLI scripts or outdated tools that required fighting with dependencies. So, I took it as a personal weekend challenge to build **NetGuard** from scratch—combining a clean **Flutter Desktop UI** with native low-level Linux networking power (`iptables`, `arpspoof`, `tc`) to regain full digital sovereignty over my own LAN.
 **NetGuard** is a powerful, modern, and lightweight Linux application for monitoring and controlling local network traffic. Built with **Flutter** and **native Linux tools**, it provides real-time insights into network usage and gives you control over connected devices.
 
 ![NetGuard Icon](web/icons/shield_x_transparent.png)
